@@ -1,0 +1,102 @@
+// A beautiful selection of our branded colors
+//
+// Styleguide
+
+// primary colors
+$primary:       #245BA7 !default;
+$primary-light:  lighten($primary, 10%) !default;
+$primary-dark:  #1E314A !default;
+
+$skyblue: #C9DDEC !default;
+$skyblue-dark: #9FC1DC !default;
+
+$secondary:       #282F38 !default;
+$secondary-light:  lighten($secondary, 10%) !default;
+$secondary-dark:  darken($secondary, 10%) !default;
+
+$success: #8bdb93 !default;
+$success-light:  lighten($success, 10%) !default;
+$success-dark:  darken($success, 10%) !default;
+
+$warning: #ff991f !default;
+$warning-light:  lighten($warning, 10%) !default;
+$warning-dark:  darken($warning, 10%) !default;
+
+$danger: #de350b !default;
+$danger-light:  lighten($danger, 10%) !default;
+$danger-dark:  darken($danger, 10%) !default;
+
+$link:          #6BA9E2 !default;
+$link--hover:   lighten($link, 10%) !default;
+$link--active:  darken($link, 10%) !default;
+
+$grey: #b2b2b2 !default;
+$grey-light:   lighten($grey, 10%) !default;
+$grey-lighter: #fafafa !default;
+$grey-dark:  darken($grey, 10%) !default;
+
+$darkblue: #1E314A !default;
+$blue2: #9FC1DC !default;
+$darklight: #2A458C !default;
+$lightblue: #DFECF4 !default;
+$blue4: #80A9CF !default;
+$blue1: #BFD7E8 !default;
+$blue2: #9FC1DC !default;
+$blue5: #4276B5 !default;
+$whiteblue: #DFECF4 !default;
+$darkorange: #DB5C18 !default;
+$orange: #FF7F11 !default;
+$orange1: #FF9A31 !default;
+$orange2: #FFB252 !default;
+$orange3: #FFC873 !default;
+$orange4: #FFDA95 !default;
+$yellow: #FFC914 !default;
+$redblack: #32322C !default;
+$green: #048A81 !default;
+$green-dark:  darken($green, 10%) !default;
+$greensecondary: #008A81 !default;
+$greenlight: #AADCAA !default;
+$darkpurpleblue: #2E2E5C !default;
+$purpled: #010E5F !default;
+$orange4: #FFDA95 !default;
+$darkpurplebuttondark: #0B305E !default;
+$purplegreendark: #02326D !default;
+$darkinputtext: #3A4553 !default;
+
+
+// Grayscale
+// FOR THE PURPOSE OF TRAINSANE - changing black/text color to dark blueish
+$color-black: $secondary !default;
+$black: $color-black;
+$color-text: $color-black;
+
+$white: #fff;
+$color-white: $white;
+
+$grey: #96939B !default;
+.gery-color{
+    color: $grey;
+}
+
+.color-white{
+    color: $color-white;
+}
+.darkinput-text {
+    color: $darkinputtext;
+}
+
+
+// States
+// $color-error: rgb(191, 38, 0) !default;
+// $error: $color-error;
+// $error-light: lighten($error, 60%);
+
+// $color-success: rgb(0, 102, 68) !default;
+// $success: $color-success;
+// $success-light: lighten($success, 15%);
+
+// $color-warning: rgb(255, 139, 0) !default;
+// $warning: $color-warning;
+
+// $color-focus: rgb(45, 90, 171) !default;
+// $focus: $color-focus;

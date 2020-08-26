@@ -1,0 +1,623 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3929421, 2020-07-25T15:07:06-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: SequelSansVFBody by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/body/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFBodyIt by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/body-italic/
+ * Copyright: Oliver Jeschke / ogj type design
+ * 
+ * Webfont: SequelSansVFHead by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/head/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFHeadIt by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/head-italic/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFDisp by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/display/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFDispIt by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/display-italic/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFBody-Light by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/body-light/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFBody-Book by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/body-book/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFBody-Roman by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/body-roman/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFBody-Medium by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/body-medium/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFBody-Semi by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/body-semi/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFBody-Bold by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/body-bold/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFBody-Heavy by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/body-heavy/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFBody-Black by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/body-black/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFBodyIt-Light by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/body-it-light/
+ * Copyright: Oliver Jeschke / ogj type design
+ * 
+ * Webfont: SequelSansVFBodyIt-Book by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/body-it-book/
+ * Copyright: Oliver Jeschke / ogj type design
+ * 
+ * Webfont: SequelSansVFBodyIt-Italic by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/body-it-italic/
+ * Copyright: Oliver Jeschke / ogj type design
+ * 
+ * Webfont: SequelSansVFBodyIt-Medium by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/body-it-medium/
+ * Copyright: Oliver Jeschke / ogj type design
+ * 
+ * Webfont: SequelSansVFBodyIt-Semi by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/body-it-semi/
+ * Copyright: Oliver Jeschke / ogj type design
+ * 
+ * Webfont: SequelSansVFBodyIt-Bold by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/body-it-bold/
+ * Copyright: Oliver Jeschke / ogj type design
+ * 
+ * Webfont: SequelSansVFBodyIt-Heavy by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/body-it-heavy/
+ * Copyright: Oliver Jeschke / ogj type design
+ * 
+ * Webfont: SequelSansVFBodyIt-Black by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/body-it-black/
+ * Copyright: Oliver Jeschke / ogj type design
+ * 
+ * Webfont: SequelSansVFHead-Light by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/head-light/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFHead-Book by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/head-book/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFHead-Roman by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/head-roman/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFHead-Medium by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/head-medium/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFHead-Semi by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/head-semi/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFHead-Bold by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/head-bold/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFHead-Heavy by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/head-heavy/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFHead-Black by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/head-black/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFHeadIt-Light by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/head-it-light/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFHeadIt-Book by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/head-it-book/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFHeadIt-Italic by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/head-it-italic/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFHeadIt-Medium by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/head-it-medium/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFHeadIt-Semi by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/head-it-semi/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFHeadIt-Bold by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/head-it-bold/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFHeadIt-Heavy by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/head-it-heavy/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFHeadIt-Black by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/head-it-black/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFDisp-Light by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/disp-light/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFDisp-Book by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/disp-book/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFDisp-Roman by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/disp-roman/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFDisp-Medium by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/disp-medium/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFDisp-Semi by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/disp-semi/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFDisp-Bold by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/disp-bold/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFDisp-Heavy by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/disp-heavy/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFDisp-Black by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/disp-black/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFDispIt-Light by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/disp-it-light/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFDispIt-Book by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/disp-it-book/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFDispIt-Italic by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/disp-it-italic/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFDispIt-Medium by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/disp-it-medium/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFDispIt-Semi by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/disp-it-semi/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFDispIt-Bold by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/disp-it-bold/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFDispIt-Heavy by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/disp-it-heavy/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * Webfont: SequelSansVFDispIt-Black by OGJ Type Design
+ * URL: https://www.myfonts.com/fonts/ogj-typedesign/sequel-sans-vf/disp-it-black/
+ * Copyright: Oliver Jeschke / OGJ Type Design
+ * 
+ * 
+ * 
+ * © 2020 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3bf54d");
+  
+@font-face {
+  font-family: 'SequelSansVFBody';
+  src: url('../fonts/webFonts/SequelSansVFBody/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFBody/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFDisp';
+  src: url('../fonts/webFonts/SequelSansVFDisp/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFDisp/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFHead';
+  src: url('../fonts/webFonts/SequelSansVFHead/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFHead/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFHeadIt';
+  src: url('../fonts/webFonts/SequelSansVFHeadIt/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFHeadIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFBodyIt';
+  src: url('../fonts/webFonts/SequelSansVFBodyIt/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFBodyIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFDispIt-Bold';
+  src: url('../fonts/webFonts/SequelSansVFDispIt-Bold/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFDispIt-Bold/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFDispIt-Black';
+  src: url('../fonts/webFonts/SequelSansVFDispIt-Black/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFDispIt-Black/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFDispIt-Medium';
+  src: url('../fonts/webFonts/SequelSansVFDispIt-Medium/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFDispIt-Medium/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFDispIt-Heavy';
+  src: url('../fonts/webFonts/SequelSansVFDispIt-Heavy/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFDispIt-Heavy/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFDispIt-Semi';
+  src: url('../fonts/webFonts/SequelSansVFDispIt-Semi/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFDispIt-Semi/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFDispIt-Italic';
+  src: url('../fonts/webFonts/SequelSansVFDispIt-Italic/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFDispIt-Italic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFDispIt-Book';
+  src: url('../fonts/webFonts/SequelSansVFDispIt-Book/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFDispIt-Book/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFDisp-Black';
+  src: url('../fonts/webFonts/SequelSansVFDisp-Black/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFDisp-Black/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFDisp-Heavy';
+  src: url('../fonts/webFonts/SequelSansVFDisp-Heavy/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFDisp-Heavy/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFDispIt-Light';
+  src: url('../fonts/webFonts/SequelSansVFDispIt-Light/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFDispIt-Light/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFDisp-Bold';
+  src: url('../fonts/webFonts/SequelSansVFDisp-Bold/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFDisp-Bold/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFDisp-Roman';
+  src: url('../fonts/webFonts/SequelSansVFDisp-Roman/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFDisp-Roman/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFDisp-Medium';
+  src: url('../fonts/webFonts/SequelSansVFDisp-Medium/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFDisp-Medium/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFDisp-Semi';
+  src: url('../fonts/webFonts/SequelSansVFDisp-Semi/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFDisp-Semi/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFDisp-Light';
+  src: url('../fonts/webFonts/SequelSansVFDisp-Light/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFDisp-Light/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFDisp-Book';
+  src: url('../fonts/webFonts/SequelSansVFDisp-Book/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFDisp-Book/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFHeadIt-Black';
+  src: url('../fonts/webFonts/SequelSansVFHeadIt-Black/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFHeadIt-Black/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFHeadIt-Heavy';
+  src: url('../fonts/webFonts/SequelSansVFHeadIt-Heavy/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFHeadIt-Heavy/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFHeadIt-Bold';
+  src: url('../fonts/webFonts/SequelSansVFHeadIt-Bold/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFHeadIt-Bold/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFHeadIt-Medium';
+  src: url('../fonts/webFonts/SequelSansVFHeadIt-Medium/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFHeadIt-Medium/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFHeadIt-Semi';
+  src: url('../fonts/webFonts/SequelSansVFHeadIt-Semi/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFHeadIt-Semi/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFHeadIt-Italic';
+  src: url('../fonts/webFonts/SequelSansVFHeadIt-Italic/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFHeadIt-Italic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFHeadIt-Book';
+  src: url('../fonts/webFonts/SequelSansVFHeadIt-Book/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFHeadIt-Book/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFHeadIt-Light';
+  src: url('../fonts/webFonts/SequelSansVFHeadIt-Light/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFHeadIt-Light/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFHead-Black';
+  src: url('../fonts/webFonts/SequelSansVFHead-Black/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFHead-Black/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFHead-Heavy';
+  src: url('../fonts/webFonts/SequelSansVFHead-Heavy/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFHead-Heavy/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFHead-Semi';
+  src: url('../fonts/webFonts/SequelSansVFHead-Semi/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFHead-Semi/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFHead-Medium';
+  src: url('../fonts/webFonts/SequelSansVFHead-Medium/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFHead-Medium/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFHead-Roman';
+  src: url('../fonts/webFonts/SequelSansVFHead-Roman/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFHead-Roman/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFBodyIt-Black';
+  src: url('../fonts/webFonts/SequelSansVFBodyIt-Black/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFBodyIt-Black/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFHead-Book';
+  src: url('../fonts/webFonts/SequelSansVFHead-Book/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFHead-Book/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFBodyIt-Heavy';
+  src: url('../fonts/webFonts/SequelSansVFBodyIt-Heavy/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFBodyIt-Heavy/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFHead-Light';
+  src: url('../fonts/webFonts/SequelSansVFHead-Light/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFHead-Light/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFHead-Bold';
+  src: url('../fonts/webFonts/SequelSansVFHead-Bold/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFHead-Bold/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFBodyIt-Bold';
+  src: url('../fonts/webFonts/SequelSansVFBodyIt-Bold/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFBodyIt-Bold/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFBodyIt-Semi';
+  src: url('../fonts/webFonts/SequelSansVFBodyIt-Semi/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFBodyIt-Semi/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFBodyIt-Medium';
+  src: url('../fonts/webFonts/SequelSansVFBodyIt-Medium/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFBodyIt-Medium/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFBodyIt-Italic';
+  src: url('../fonts/webFonts/SequelSansVFBodyIt-Italic/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFBodyIt-Italic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFBody-Black';
+  src: url('../fonts/webFonts/SequelSansVFBody-Black/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFBody-Black/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFBodyIt-Book';
+  src: url('../fonts/webFonts/SequelSansVFBodyIt-Book/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFBodyIt-Book/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFBody-Heavy';
+  src: url('../fonts/webFonts/SequelSansVFBody-Heavy/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFBody-Heavy/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFBody-Bold';
+  src: url('../fonts/webFonts/SequelSansVFBody-Bold/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFBody-Bold/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFBody-Semi';
+  src: url('../fonts/webFonts/SequelSansVFBody-Semi/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFBody-Semi/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFBody-Medium';
+  src: url('../fonts/webFonts/SequelSansVFBody-Medium/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFBody-Medium/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFBodyIt-Light';
+  src: url('../fonts/webFonts/SequelSansVFBodyIt-Light/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFBodyIt-Light/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFBody-Roman';
+  src: url('../fonts/webFonts/SequelSansVFBody-Roman/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFBody-Roman/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFBody-Book';
+  src: url('../fonts/webFonts/SequelSansVFBody-Book/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFBody-Book/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFDispIt';
+  src: url('../fonts/webFonts/SequelSansVFDispIt/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFDispIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'SequelSansVFBody-Light';
+  src: url('../fonts/webFonts/SequelSansVFBody-Light/font.woff2') format('woff2'), url('../fonts/webFonts/SequelSansVFBody-Light/font.woff') format('woff');
+}
+
+
+
+
+// Theme / Fonts
+$system-font: SequelSansVFBody-Book;
+$SequelSansVFDisp: SequelSansVFDisp-Bold;
+
+
+
+.SequelSansVFBody {
+	font-family: SequelSansVFBody;
+}
+.SequelSansVFBodyIt {
+	font-family: SequelSansVFBodyIt;
+}
+.SequelSansVFHead {
+	font-family: SequelSansVFHead;
+}
+.SequelSansVFHeadIt {
+	font-family: SequelSansVFHeadIt;
+}
+.SequelSansVFDisp {
+	font-family: SequelSansVFDisp;
+}
+.SequelSansVFDispIt {
+	font-family: SequelSansVFDispIt;
+}
+.SequelSansVFBody-Light {
+	font-family: SequelSansVFBody-Light;
+}
+.SequelSansVFBody-Book {
+	font-family: SequelSansVFBody-Book;
+}
+.SequelSansVFBody-Roman {
+	font-family: SequelSansVFBody-Roman;
+}
+.SequelSansVFBody-Medium {
+	font-family: SequelSansVFBody-Medium;
+}
+.SequelSansVFBody-Semi {
+	font-family: SequelSansVFBody-Semi;
+}
+.SequelSansVFBody-Bold {
+	font-family: SequelSansVFBody-Bold;
+}
+.SequelSansVFBody-Heavy {
+	font-family: SequelSansVFBody-Heavy;
+}
+.SequelSansVFBody-Black {
+	font-family: SequelSansVFBody-Black;
+}
+.SequelSansVFBodyIt-Light {
+	font-family: SequelSansVFBodyIt-Light;
+}
+.SequelSansVFBodyIt-Book {
+	font-family: SequelSansVFBodyIt-Book;
+}
+.SequelSansVFBodyIt-Italic {
+	font-family: SequelSansVFBodyIt-Italic;
+}
+.SequelSansVFBodyIt-Medium {
+	font-family: SequelSansVFBodyIt-Medium;
+}
+.SequelSansVFBodyIt-Semi {
+	font-family: SequelSansVFBodyIt-Semi;
+}
+.SequelSansVFBodyIt-Bold {
+	font-family: SequelSansVFBodyIt-Bold;
+}
+.SequelSansVFBodyIt-Heavy {
+	font-family: SequelSansVFBodyIt-Heavy;
+}
+.SequelSansVFBodyIt-Black {
+	font-family: SequelSansVFBodyIt-Black;
+}
+.SequelSansVFHead-Light {
+	font-family: SequelSansVFHead-Light;
+}
+.SequelSansVFHead-Book {
+	font-family: SequelSansVFHead-Book;
+}
+.SequelSansVFHead-Roman {
+	font-family: SequelSansVFHead-Roman;
+}
+.SequelSansVFHead-Medium {
+	font-family: SequelSansVFHead-Medium;
+}
+.SequelSansVFHead-Semi {
+	font-family: SequelSansVFHead-Semi;
+}
+.SequelSansVFHead-Bold {
+	font-family: SequelSansVFHead-Bold;
+}
+.SequelSansVFHead-Heavy {
+	font-family: SequelSansVFHead-Heavy;
+}
+.SequelSansVFHead-Black {
+	font-family: SequelSansVFHead-Black;
+}
+.SequelSansVFHeadIt-Light {
+	font-family: SequelSansVFHeadIt-Light;
+}
+.SequelSansVFHeadIt-Book {
+	font-family: SequelSansVFHeadIt-Book;
+}
+.SequelSansVFHeadIt-Italic {
+	font-family: SequelSansVFHeadIt-Italic;
+}
+.SequelSansVFHeadIt-Medium {
+	font-family: SequelSansVFHeadIt-Medium;
+}
+.SequelSansVFHeadIt-Semi {
+	font-family: SequelSansVFHeadIt-Semi;
+}
+.SequelSansVFHeadIt-Bold {
+	font-family: SequelSansVFHeadIt-Bold;
+}
+.SequelSansVFHeadIt-Heavy {
+	font-family: SequelSansVFHeadIt-Heavy;
+}
+.SequelSansVFHeadIt-Black {
+	font-family: SequelSansVFHeadIt-Black;
+}
+.SequelSansVFDisp-Light {
+	font-family: SequelSansVFDisp-Light;
+}
+.SequelSansVFDisp-Book {
+	font-family: SequelSansVFDisp-Book;
+}
+.SequelSansVFDisp-Roman {
+	font-family: SequelSansVFDisp-Roman;
+}
+.SequelSansVFDisp-Medium {
+	font-family: SequelSansVFDisp-Medium;
+}
+.SequelSansVFDisp-Semi {
+	font-family: SequelSansVFDisp-Semi;
+}
+.SequelSansVFDisp-Bold {
+	font-family: SequelSansVFDisp-Bold;
+}
+.SequelSansVFDisp-Heavy {
+	font-family: SequelSansVFDisp-Heavy;
+}
+.SequelSansVFDisp-Black {
+	font-family: SequelSansVFDisp-Black;
+}
+.SequelSansVFDispIt-Light {
+	font-family: SequelSansVFDispIt-Light;
+}
+.SequelSansVFDispIt-Book {
+	font-family: SequelSansVFDispIt-Book;
+}
+.SequelSansVFDispIt-Italic {
+	font-family: SequelSansVFDispIt-Italic;
+}
+.SequelSansVFDispIt-Medium {
+	font-family: SequelSansVFDispIt-Medium;
+}
+.SequelSansVFDispIt-Semi {
+	font-family: SequelSansVFDispIt-Semi;
+}
+.SequelSansVFDispIt-Bold {
+	font-family: SequelSansVFDispIt-Bold;
+}
+.SequelSansVFDispIt-Heavy {
+	font-family: SequelSansVFDispIt-Heavy;
+}
+.SequelSansVFDispIt-Black {
+	font-family: SequelSansVFDispIt-Black;
+}

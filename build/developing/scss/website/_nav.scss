@@ -1,0 +1,113 @@
+.nav-wrapper {
+    background-color: $primary-dark;
+}
+nav{
+    position: relative;
+    padding: 25px 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media screen and (max-width: 991px) {
+        padding: 0;
+        display: block;
+    }
+	a.nav--logo {
+        line-height: 0;
+        max-width: 290px;
+        width: 100%;
+        display: block;
+        @media screen and (max-width: 991px) {
+            padding: 23px 0;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+    
+    .nav-collapse-wrapper {
+        display: flex;
+        align-items: center;
+        @media screen and (max-width: 991px) {
+            margin: 0 -15px;
+            background-color: rgba($primary, 0.1);
+            padding: 17.5px 15px;
+            justify-content: center;
+        }
+        @media screen and (max-width: 575px) {
+            display: none;
+        }
+    }
+    .nav-collapse{
+        display: inline-flex;
+    }
+    .nav-collapse > ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        @media screen and (max-width: 575px){
+            display: block;
+            margin-left: 22px;
+        }
+        
+        li{
+            position: relative;
+            &:not(:last-child) {
+                margin-right: 30px;
+            }
+        }
+        li a {
+            color: $white;
+            font-size: 14px;
+            font-weight: 300;
+            position: relative;
+            @media screen and (max-width: 991px){
+                font-size: 13px;
+            }
+            @media screen and (max-width: 575px){
+                display: block;
+                padding: 8px 0;
+            }
+        }
+    }
+    
+    button.button-collapse {
+        background-color: transparent;
+        border: 0;
+        padding: 0;
+        margin: 0;
+        outline: none;
+        cursor: pointer;
+        min-width: auto;
+        margin-left: -15px;
+        background-color: $secondary;
+        padding: 13.5px 20px;
+        line-height: 0;
+        @media screen and (min-width: 576px){
+            display: none;
+        }
+        span {
+            color: #F1F6F9;
+            @include fontsize(15px);
+            @include lineheight(15px, 21px);
+        }
+        img {
+            max-width: 27px;
+            width: 100%;
+        }
+        &:not(.in) img {
+            margin-right: 33px;
+        }
+        &:not(.in) span {
+            vertical-align: text-bottom;
+        }
+    }
+}
+
+
+

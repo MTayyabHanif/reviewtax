@@ -1,0 +1,24 @@
+.taxContent {
+    margin-top: 95px;
+    @media screen and (max-width: 991px) {
+        margin-top: 48px;
+    }
+    @media screen and (max-width: 575px) {
+        margin-top: 36px;
+    }
+    .taxContent-item {
+        margin-bottom: 52px;
+        @media screen and (max-width: 991px) {
+            margin-bottom: 30px;
+        }
+    }
+    h2 {
+        color: $primary-dark;
+    }
+    p {
+        color: $darklight;
+        b {
+            color: $primary-dark;
+        }
+    }
+}

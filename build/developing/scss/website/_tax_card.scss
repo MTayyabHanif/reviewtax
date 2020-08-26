@@ -1,0 +1,244 @@
+.card.taxCard {
+    background: $white;
+    box-shadow: 0px 4px 11px 1px rgba(2, 50, 109, 0.2);
+    border-radius: 8px;
+    margin-bottom: 40px;
+    .card-header {
+        background-color: $skyblue;
+        color: $white;
+        padding: 0;
+        padding-right: 25px;
+        border-radius: 6px 6px 0px 0px;
+        @media screen and (max-width: 575px) {
+            padding: 9px 21px;
+            > .row {
+                align-items: flex-start;
+            }
+            > .row > div:nth-child(2) {
+                display: none;
+            }
+            > .row > div {
+                flex-basis: 50%;
+                max-width: 50%;
+            }
+        }
+    }
+    .taxCard-label {
+        display: inline-flex;
+        align-items: center;
+        @media screen and (max-width: 575px) {
+            display: block;
+        }
+        .taxCard-label--number {
+            padding: 20px 0;
+            width: 64px;
+            text-align: center;
+            margin: 0;
+            color: $purplegreendark;
+            font-family: $SequelSansVFDisp;
+            font-weight: bold;
+            @include fontsize(20px);
+            @include lineheight(20px, 24px);
+            letter-spacing: 0.03em;
+            background-color: $blue2;
+            border-radius: 8px 0 0 0;
+            @media screen and (max-width: 575px) {
+                padding: 0;
+                text-align: left;
+                margin-bottom: 6px;
+                background-color: transparent;
+            }
+        }
+        .taxCard-label--text {
+            color: $white;
+            font-weight: bold;
+            @include fontsize(16px);
+            @include lineheight(16px, 24px);
+            letter-spacing: 0.01em;
+        }
+    }
+    .taxCard-score {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        color: $purplegreendark;
+        @media screen and (max-width: 575px) {
+            display: block;
+            text-align: right;
+        }
+        .taxCard-score--number {
+            font-size: 36px;
+            line-height: 42px;
+            letter-spacing: 0.01em;
+            font-weight: bold;
+            font-family: $SequelSansVFDisp;
+            @media screen and (max-width: 575px) {
+                @include fontsize(28px);
+                @include lineheight(28px, 33px);
+            }
+        }
+        .taxCard-score--text {
+            margin-bottom: 4px;
+            margin-left: 10px;
+            @media screen and (max-width: 575px) {
+                font-size: 12px;
+                line-height: 14px;
+            }
+        }
+    }
+    .taxCard-price {
+        color: $purplegreendark;
+        span {
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 19px;
+        }
+    }
+    .taxCard-points:not(.mobile) {
+        @media screen and (max-width: 575px) {
+            display: none;
+        }
+    }
+    .taxCard-points.mobile {
+        text-align: left;
+        @media screen and (min-width: 576px) {
+            display: none;
+        }
+    }
+    .taxCard-points ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        li {
+            color: $primary-dark;
+            padding-left: 23px;
+            position: relative;
+        }
+        li:not(:last-child) {
+            margin-bottom: 14px;
+        }
+        li::before {
+            content: '';
+            background-image: url('../img/svg/checkIcon.svg');
+            background-size: auto;
+            background-repeat: no-repeat;
+            width: 13px;
+            height: 15px;
+            position: absolute;
+            left: 0;
+        }
+    }
+    .taxCard-sub {
+        letter-spacing: 0.02em;
+        color: #607487;
+        @media screen and (max-width: 575px) {
+            font-size: 12px;
+            line-height: 14px;
+        }
+    }
+    .taxCard-buttons {
+        margin-top: 10px;
+        @media screen and (max-width: 991px) {
+            margin-bottom: 10px;
+            margin-top: 0;
+        }
+        a.btn {
+            max-width: 278px;
+            width: 100%;
+        }
+        > div:first-child {
+            margin-bottom: 12px;
+        }
+    }
+
+    .card-body {
+        @media screen and (max-width: 575px) {
+            padding: 25px 20px;
+        }
+    }
+    // Card Body row
+    .card-body--row {
+        display: flex;
+        margin: 0 -15px;
+        @media screen and (max-width: 575px) {
+            flex-wrap: wrap;
+        }
+        > div {
+            padding: 0 15px;
+            @media screen and (max-width: 575px) {
+                flex-basis: 100%;
+                max-width: 100%;
+            }
+        }
+        > div:first-child {
+            @media screen and (min-width: 992px) {
+                display: inline-flex;
+            }
+            @media screen and (max-width: 991px) {
+                order: 1;
+            }
+        }
+        > div:last-child {
+            max-width: 308px;
+            width: 100%;
+            text-align: center;
+            margin-left: auto;
+            @media screen and (max-width: 991px) {
+                order: 2;
+            }
+            @media screen and (max-width: 575px) {
+                max-width: initial;
+            }
+        }
+        > div:nth-child(2) {
+            @media screen and (max-width: 991px) {
+                order: 3;
+            }
+        }
+        .taxCard-logo {
+            max-width: 252px;
+            width: 100%;
+            @media screen and (max-width: 991px) {
+                margin-bottom: 30px;
+            }
+            @media screen and (max-width: 575px) {
+                max-width: 238px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 19px;
+            }
+        }
+        .taxCard-price.mobile {
+            color: #1E314A;
+            background: #F1F6F9;
+            margin-left: -20px;
+            margin-right: -20px;
+            padding: 7.5px;
+            margin-bottom: 23px;
+            margin-top: 20px;
+            span {
+                color: #1E314A;
+                font-weight: bold;
+            }
+            @media screen and (min-width: 576px) {
+                display: none;
+            }
+        }
+    }
+}
+
+// Success Card chane colors
+.card.taxCard.taxCard-success {
+    border: 1px solid $greensecondary;
+    .card-header {
+        background-color: $greensecondary;
+    }
+    .taxCard-label--number {
+        background-color: transparent;
+        color: $white;
+    }
+    .taxCard-price,
+    .taxCard-score {
+        color: $white;
+    }
+}

@@ -1,0 +1,29 @@
+header .header-body {
+    background-color: $primary-dark;
+    padding: 80px 0 120px;
+    min-height: 345px;
+    @media screen and (max-width: 991px) {
+        padding: 31px 0 135px;
+    }
+    > .container {
+        @media screen and (max-width: 991px) {
+            max-width: 644px;
+        }
+    }
+    .header-body--desc {
+        max-width: 620px;
+    }
+    .header-body--date {
+        color: $blue2;
+        text-align: right;
+        @media screen and (max-width: 991px) {
+            text-align: left;
+            margin-top: 18px;
+        }
+    }
+    .header-body--date span {
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+    }
+}

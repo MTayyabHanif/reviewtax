@@ -1,0 +1,162 @@
+// .headingFamily
+// h1
+// h2
+// h3
+// h4
+// h5
+// h6
+// .pageHeading
+// .sectionTitle
+// .subheader
+// .quote
+// .button
+// .caption
+// .meta
+
+// body
+// .bodyFamily
+// .largeBody
+// .smallBody
+
+* {
+	box-sizing: border-box;
+}
+
+body{
+	font-size: 14px;
+	line-height: 1.3;
+	color: $secondary;
+	font-family: $system-font;
+}
+
+a{
+	font-family: $system-font;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 17px;
+	color: #C4C4C4;
+	text-decoration: none;
+	@media screen and (max-width: 991px) {
+		font-size: 13px;
+		line-height: 15px;
+	}
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+
+h1 {
+	font-family: SequelSansVFDisp-Bold;
+	font-style: normal;
+	font-weight: bold;
+	@include fontsize(32px);
+	@include lineheight(32px, 38px);
+	letter-spacing: 0.01em;
+	color: #C4C4C4;
+	@media screen and (max-width: 991px) {
+		@include fontsize(28px);
+		@include lineheight(28px, 33px);
+	}
+	@media screen and (max-width: 575px) {
+		@include fontsize(24px);
+		@include lineheight(24px, 28px);
+	}
+}
+
+h2 {
+	font-family: SequelSansVFDisp-Bold;
+	font-style: normal;
+	font-weight: bold;
+	@include fontsize(24px);
+	@include lineheight(24px, 28px);
+	letter-spacing: 0.01em;
+	color: #C4C4C4;
+	@media screen and (max-width: 991px) {
+		@include fontsize(21px);
+		@include lineheight(21px, 25px);
+		letter-spacing: 0.02em;
+	}
+	@media screen and (max-width: 575px) {
+		@include fontsize(19px);
+		@include lineheight(19px, 23px);
+	}
+}
+
+h3 {
+	font-family: SequelSansVFDisp-Bold;
+	font-style: normal;
+	font-weight: bold;
+	@include fontsize(20px);
+	@include lineheight(20px, 24px);
+	letter-spacing: 0.03em;
+	color: #C4C4C4;
+	@media screen and (max-width: 575px) {
+		@include fontsize(18px);
+		@include lineheight(18px, 21px);
+	}
+}
+
+p {
+	font-family: $system-font;
+	@include fontsize(16px);
+	@include lineheight(16px, 24px);
+	letter-spacing: 0.01em;
+	color: #C4C4C4;
+	@media screen and (max-width: 991px) {
+		font-weight: 300;
+		@include fontsize(15px);
+		@include lineheight(15px, 21px);
+	}
+	@media screen and (max-width: 575px) {
+		@include fontsize(14px);
+		@include lineheight(14px, 19px);
+	}
+}
+
+.smallText {
+	font-family: $system-font;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 14px;
+	color: #C4C4C4;
+}
+
+ul li {
+	font-family: $system-font;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 17px;
+	color: #C4C4C4;
+}
+
+.listParagraph {
+	font-family: $system-font;
+	font-style: normal;
+	font-weight: 300;
+	@include fontsize(16px);
+	@include lineheight(16px, 22px);
+	letter-spacing: 0.01em;
+	color: #C4C4C4;
+}
+
+.bold {
+	font-style: normal;
+	font-weight: bold;
+	@include fontsize(16px);
+	@include lineheight(16px, 24px);
+	letter-spacing: 0.01em;
+	color: #C4C4C4;
+	@media screen and (max-width: 991px) {
+		@include fontsize(15px);
+		@include lineheight(15px, 21px);
+	}
+	@media screen and (max-width: 575px) {
+		font-size: 14px;
+		@include lineheight(14px, 21px);
+	}
+}

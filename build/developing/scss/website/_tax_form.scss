@@ -1,0 +1,197 @@
+.taxForm {
+    background: $white;
+    box-shadow: 0px 4px 11px 1px rgba(36, 91, 167, 0.3);
+    border-radius: 8px;
+    margin-top: -108px;
+    margin-bottom: 128px;
+    @media screen and (max-width: 991px) {
+        margin-bottom: 85px;
+    }
+    @media screen and (max-width: 575px) {
+        margin-top: -186px;
+        margin-left: -15px;
+        margin-right: -15px;
+        margin-bottom: 78px;
+    }
+    .taxForm-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 21px 26px;
+        border-bottom: 1px solid #E0E4E9;
+        @media screen and (max-width: 991px) {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        @media screen and (max-width: 575px) {
+            display: block;
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        .taxForm-dial {
+            max-width: 278px;
+            width: 100%;
+            @media screen and (max-width: 991px) {
+                max-width: 240px;
+            }
+            @media screen and (max-width: 575px) {
+                margin-right: auto;
+                margin-left: auto;
+            }
+        }
+        .taxForm-dial a.btn {
+            width: 100%;
+        }
+        .taxForm-logo {
+            max-width: 268px;
+            width: 100%;
+            line-height: 0;
+            @media screen and (max-width: 575px) {
+                max-width: 234px;
+                margin-right: auto;
+                margin-left: auto;
+                margin-bottom: 28px;
+            }
+        }
+        .taxForm-logo img {
+            width: 100%;
+        }
+    }
+    .taxForm-body {
+        @media screen and (max-width: 991px) {
+            position: relative;
+            overflow: hidden;
+        }
+    }
+    .taxForm-body form {
+        max-width: 396px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 50px 20px;
+        position: relative;
+        @media screen and (max-width: 991px) {
+            padding-bottom: 57px;
+            &::after {
+                content: '';
+                width: 1400px;
+                height: 1px;
+                background-color: #E0E4E9;
+                position: absolute;
+                bottom: 0;
+                left: -400px;
+            }
+        }
+        @media screen and (max-width: 575px) {
+            padding-bottom: 46px;
+            padding-top: 34px;
+        }
+        .form-item {
+            @media screen and (max-width: 575px) {
+                margin-bottom: 28px;
+            }
+        }
+        .smallText {
+            color: #96939B;
+            margin-top: 24px;
+            @media screen and (max-width: 991px) {
+                margin-top: 21px;
+            }
+            @media screen and (max-width: 575px) {
+                margin-top: 25px;
+            }
+        }
+        .phoneNumber {
+            display: flex;
+            align-items: center;
+        }
+        .phoneNumber .phoneNumber-start {
+            max-width: 28%;
+            margin-right: 10px;
+            @media screen and (max-width: 575px) {
+                margin-right: 8px;
+            }
+        }
+        .phoneNumber .phoneNumber-center {
+            max-width: 28%;
+        }
+        .phoneNumber .phoneNumber-seperator {
+            margin-left: 7px;
+            margin-right: 7px;
+            @media screen and (max-width: 575px) {
+                margin-left: 6px;
+                margin-right: 6px;
+            }
+        }
+        button.btn {
+            margin-top: -4px;
+            @media screen and (max-width: 575px) {
+                margin-top: -8px;
+            }
+        }
+    }
+    .taxForm-body > .row > div:first-child {
+        border-right: 1px solid #E0E4E9;
+        @media screen and (max-width: 991px) {
+            border-right: 0;
+        }
+    }
+}
+
+// How it works
+.taxForm .howitWorks {
+    padding: 50px 20px;
+    @media screen and (max-width: 991px) {
+        padding-top: 60px;
+        padding-bottom: 71px;
+    }
+    @media screen and (max-width: 575px) {
+        padding-top: 66px;
+        padding-bottom: 66px;
+    }
+    .howitWorks-title {
+        margin-bottom: 38px;
+    }
+}
+.taxForm .howitWorks .howitWorks-item {
+    max-width: 346px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    &:not(:last-child) {
+        margin-bottom: 55px;
+    }
+    .howitWorks-item--icon {
+        margin-bottom: 18px;
+        @media screen and (max-width: 575px) {
+            margin-bottom: 12px;
+        }
+    }
+    .howitWorks-item--icon img {
+        max-width: 101px;
+        @media screen and (max-width: 575px) {
+            max-width: 87px;
+        }
+    }
+    .howitWorks-item--title {
+        font-weight: bold;
+        @include fontsize(16px);
+        @include lineheight(16px, 24px);
+        letter-spacing: 0.01em;
+    }
+    .howitWorks-item--title,
+    p.howitWorks-item--desc {
+        color: #415674;
+    }
+    p.howitWorks-item--desc {
+        margin-bottom: 0;
+        margin-top: 5px;
+        @media screen and (max-width: 991px) {
+            margin-top: 3px;
+        }
+        @media screen and (max-width: 575px) {
+            margin-top: 9px;
+        }
+    }
+}
