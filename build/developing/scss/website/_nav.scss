@@ -1,5 +1,9 @@
 .nav-wrapper {
     background-color: $primary-dark;
+    @media screen and (max-width: 991px) {
+        position: relative;
+        overflow: hidden;
+    }
 }
 nav{
     position: relative;
@@ -22,6 +26,10 @@ nav{
             margin-left: auto;
             margin-right: auto;
         }
+        @media screen and (max-width: 575px) {
+            padding: 20px 0;
+            max-width: 232px;
+        }
         img{
             width: 100%;
             height: auto;
@@ -31,11 +39,19 @@ nav{
     .nav-collapse-wrapper {
         display: flex;
         align-items: center;
+        position: relative;
         @media screen and (max-width: 991px) {
-            margin: 0 -15px;
-            background-color: rgba($primary, 0.1);
             padding: 17.5px 15px;
             justify-content: center;
+            &::before {
+                content: '';
+                background-color: rgba($primary, 0.1);
+                width: 1500px;
+                height: 100%;
+                position: absolute;
+                left: -500px;
+                top: 0;
+            }
         }
         @media screen and (max-width: 575px) {
             display: none;
@@ -74,8 +90,26 @@ nav{
                 padding: 8px 0;
             }
         }
+        li a:hover,
+        li a.active {
+            color: $link;
+        }
+        li.disclosure-trigger a.modalActive::after {
+            content: '';
+            background-color: rgba(0,0,0,0.6);
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            left: 0;
+            top: 0;
+            cursor: pointer;
+        }
     }
-    
+    .nav--colapseBtn {
+        @media screen and (max-width: 575px){
+            z-index: 20;
+        }
+    }
     button.button-collapse {
         background-color: transparent;
         border: 0;
@@ -109,5 +143,9 @@ nav{
     }
 }
 
-
-
+body.thankYou nav .button-collapse:not(.in),
+body.thankYou nav .nav-collapse-wrapper {
+    @media screen and (max-width: 575px) {
+        margin-bottom: 20px;
+    }
+}

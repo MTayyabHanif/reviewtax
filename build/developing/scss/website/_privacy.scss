@@ -1,0 +1,46 @@
+.privacyContent,
+.termsContent,
+.thankYouContent {
+    max-width: 816px;
+    margin: 66px 0 69px;
+    .bold {
+        margin-bottom: 13px;
+    }
+    p {
+        margin-top: 0;
+        margin-bottom: 12px;
+    }
+    p a {
+        color: $darkorange;
+    }
+}
+
+// List
+.privacyContent ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 18px;
+    margin-bottom: 15px;
+    li {
+        position: relative;
+        padding-left: 12px;
+        &::before {
+            content: '';
+            background-color: $green;
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 0;
+        }
+    }
+    li:not(:last-child) {
+        margin-bottom: 8px;
+    }
+}
+
+
+// Terms

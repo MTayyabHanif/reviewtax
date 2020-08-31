@@ -52,7 +52,7 @@
                             <ul>
                                 <li><a href="#">How Do We Rank Companies?</a></li>
                                 <li><a href="#">About Us</a></li>
-                                <li><a href="#">Advertising Disclosure</a></li>
+                                <li class="disclosure-trigger"><a href="#">Advertising Disclosure</a></li>
                             </ul>
                         </div>
                     </div>
@@ -76,6 +76,20 @@
             </div>
         </div>
     </header>
+    <div class="disclosure">
+        <p class="primary-text mt-0">
+            <b class="primarydark-text">Reviews.Tax</b> is a free online resource that strives to provide both business and individual taxpayers with company comparisons and free content. Companies cannot pay for a better position as part of our service. However, we may get compensated by a company when you call or request a quote from our website.
+        </p>
+        <p class="primary-text mt-0">
+            As former tax company owners, we use a proprietary algorithm in order to rank our top ten list using factors such as diversity of tax services, average case fees, BBB ratings, customer reviews, years in business, professionals on staff, refund policies, and more.
+        </p>
+        <p class="primary-text mt-0">
+            One of the founders of reviews.tax is a tax professional and both founders use to own a tax relief company. Our goal is to provide information so you can make an informed decision.
+        </p>
+        <p class="primary-text mt-0 mb-0">
+            Our Partners: <b>W Tax Group, Tax Defense Network, Community Tax, Justice Tax, Tax Resource Group</b>
+        </p>
+    </div>
     <main>
         <section>
             <div class="container">
@@ -97,60 +111,67 @@
                                 <form action="">
                                     <div class="form-item">
                                         <label for="taxAgency">Tax Agency You Need Help With:</label>
-                                        <select name="taxAgency" id="taxAgency">
+                                        <select name="taxAgency" id="taxAgency" required>
                                             <option value="">Select Tax Agency</option>
                                             <option value="1">1</option>
                                             <option value="1">1</option>
                                             <option value="1">1</option>
                                         </select>
+                                        <div class="form-msg">Tax Agency is required</div>
                                     </div>
                                     <div class="form-item">
                                         <label for="taxAmount">Tax Amount in Question</label>
-                                        <select name="taxAmount" id="taxAmount">
-                                            <option value="">Select Tax Agency</option>
+                                        <select name="taxAmount" id="taxAmount" required>
+                                            <option value="">Select Tax Amount</option>
                                             <option value="1">1</option>
                                             <option value="1">1</option>
                                             <option value="1">1</option>
                                         </select>
+                                        <div class="form-msg">Tax Amount is required</div>
                                     </div>
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="form-item">
                                                 <label for="firstName">First Name</label>
-                                                <input type="text" id="firstName" name="firstName" placeholder="First Name">
+                                                <input type="text" id="firstName" name="firstName" required placeholder="First Name">
+                                                <div class="form-msg">First Name is required</div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-item">
                                                 <label for="lastName">Last Name</label>
-                                                <input type="text" id="lastName" name="lastName" placeholder="Last Name">
+                                                <input type="text" id="lastName" name="lastName" required placeholder="Last Name">
+                                                <div class="form-msg">Last Name is required</div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="form-item">
                                         <label for="email">Email</label>
-                                        <input type="email" id="email" name="email" placeholder="Email">
+                                        <input type="email" id="email" name="email" class="form-item--email" required placeholder="Email">
+                                        <div class="form-msg">Email is required</div>
                                     </div>
                                     <div class="form-item">
                                         <label for="phoneNumber">Phone Number</label>
                                         <div class="phoneNumber">
                                             <div class="phoneNumber-start">
-                                                <input type="text" id="phoneNumber" name="phoneNumber">
+                                                <input type="text" id="phoneNumber" required name="phoneNumber" maxlength="5">
                                             </div>
                                             <div class="phoneNumber-center">
-                                                <input type="text" id="phoneNumber_2" name="phoneNumber_2">
+                                                <input type="text" id="phoneNumber_2" required name="phoneNumber_2" maxlength="3">
                                             </div>
                                             <div class="phoneNumber-seperator">
                                                 <div class="seperator">-</div>
                                             </div>
                                             <div class="phoneNumber-last">
-                                                <input type="text" id="phoneNumber_3" name="phoneNumber_2">
+                                                <input type="text" id="phoneNumber_3" required name="phoneNumber_2" maxlength="4">
                                             </div>
                                         </div>
+                                        <div class="form-msg">Phone Number is required</div>
                                     </div>
                                     <div class="form-item">
                                         <label for="taxProblem">Brief Overview of Tax Problem</label>
-                                        <textarea type="text" id="taxProblem" name="taxProblem" rows="7" placeholder="Your Message"></textarea>
+                                        <textarea type="text" id="taxProblem"  name="taxProblem" rows="7" required placeholder="Your Message"></textarea>
+                                        <div class="form-msg">Overview is required</div>
                                     </div>
                                     <div>
                                         <button type="submit" class="btn btn-success btn-icon btn-block">

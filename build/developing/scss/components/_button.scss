@@ -21,8 +21,8 @@ button, .btn{
     transition: background-color .25s ease-in-out,
                 border-color .25s ease-in-out;
     &:hover {
-        background-color: $primary-dark;
-        border-color: $primary-dark;
+        background-color: $darkpurplebuttondark;
+        border-color: $darkpurplebuttondark;
     }
     &.rounded {
         border-radius: 25px;
@@ -38,6 +38,15 @@ button, .btn{
         &.btn-icon svg path {
             fill: $primary;
         }
+        &:hover {
+            background-color: rgba($darkpurplebuttondark, 0.1);
+            border-color: $darkpurplebuttondark;
+            color: $darkpurplebuttondark;
+        }
+        &.btn-icon:hover svg,
+        &.btn-icon:hover svg path {
+            fill: $darkpurplebuttondark;
+        }
     }
     &.btn-icon {
         display: inline-flex;
@@ -46,14 +55,30 @@ button, .btn{
             width: 19px;
             height: 19px;
             vertical-align: bottom;
+            transition: fill .25s ease-in-out;
+        }
+        svg path {
+            transition: fill .25s ease-in-out;
         }
     }
     &.btn-darkpurple {
         border-color: $darkpurplebuttondark;
         background-color: $darkpurplebuttondark;
+        &:hover {
+            border-color: $greensecondary;
+            background-color: $greensecondary;
+        }
         &.outline {
             background-color: rgba($darkpurplebuttondark, 0.05);
             color: $darkpurplebuttondark;
+        }
+        &.outline:hover {
+            background-color: rgba($greensecondary, 0.1);
+            color: $greensecondary;
+        }
+        &.btn-icon.outline:hover svg,
+        &.btn-icon.outline:hover svg path {
+            fill: $greensecondary;
         }
     }
     &.btn-secondary{

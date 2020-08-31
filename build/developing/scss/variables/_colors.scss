@@ -79,10 +79,19 @@ $grey: #96939B !default;
 }
 
 .color-white{
-    color: $color-white;
+    color: $color-white !important;
 }
 .darkinput-text {
-    color: $darkinputtext;
+    color: $darkinputtext !important;
+}
+.primarydark-text {
+    color: $primary-dark !important;
+}
+.primary-text {
+    color: $primary !important;
+}
+.darkorange-text {
+    color: $darkorange;
 }
 
 

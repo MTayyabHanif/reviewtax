@@ -10,6 +10,9 @@ header .header-body {
             max-width: 644px;
         }
     }
+    h1 {
+        color: $white;
+    }
     .header-body--desc {
         max-width: 620px;
     }
@@ -25,5 +28,71 @@ header .header-body {
         font-size: 12px;
         line-height: 14px;
         text-align: center;
+    }
+}
+
+body.aboutus-page header .header-body,
+body.howwedetermine-page header .header-body {
+    > .container {
+        @media screen and (max-width: 991px) {
+            max-width: 483px;
+        }
+    }
+    @media screen and (max-width: 575px) {
+        min-height: auto;
+        padding-bottom: 126px;
+    }
+    .header-body--desc {
+        max-width: unset;
+    }
+}
+
+body.termspage header .header-body,
+body.privacypage header .header-body {
+    @media screen and (max-width: 575px) {
+        padding-bottom: 55px;
+    }
+}
+
+
+.disclosure {
+    background: $white;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.8);
+    border-radius: 4px;
+    padding: 26px 36px;
+    width: 632px;
+    position: absolute;
+    top: 200px;
+    right: 0;
+    z-index: 250;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .3s ease-in-out, visibility .3s ease-in-out, top .25s ease-in-out;
+    @media screen and (max-width: 767px) {
+        max-width: 500px;
+        width: 100%;
+    }
+    @media screen and (max-width: 575px) {
+        left: 15px;
+        right: 15px;
+        max-width: 100%;
+        width: auto;
+    }
+    &.active {
+        opacity: 1;
+        visibility: visible;
+        top: 90px;
+        @media screen and (max-width: 991px) {
+            top: 170px;
+        }
+        @media screen and (max-width: 575px) {
+            top: 226px;
+        }
+    }
+    p {
+        margin-bottom: 6px;
+    }
+    p b {
+        font-weight: bold;
     }
 }

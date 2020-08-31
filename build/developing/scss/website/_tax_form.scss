@@ -92,6 +92,12 @@
                 margin-bottom: 28px;
             }
         }
+        .form-item:not(.input-error) .form-msg {
+            display: none;
+        }
+        .form-item .form-msg {
+            color: $danger;
+        }
         .smallText {
             color: #96939B;
             margin-top: 24px;
