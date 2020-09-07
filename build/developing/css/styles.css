@@ -3434,7 +3434,6 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-family: SequelSansVFDisp-Bold;
   font-style: normal;
-  font-weight: bold;
   font-size: 32px;
   font-size: 2rem;
   line-height: 38px;
@@ -3464,7 +3463,6 @@ h1 {
 h2 {
   font-family: SequelSansVFDisp-Bold;
   font-style: normal;
-  font-weight: bold;
   font-size: 24px;
   font-size: 1.5rem;
   line-height: 28px;
@@ -3495,7 +3493,6 @@ h2 {
 h3 {
   font-family: SequelSansVFDisp-Bold;
   font-style: normal;
-  font-weight: bold;
   font-size: 20px;
   font-size: 1.25rem;
   line-height: 24px;
@@ -3574,13 +3571,13 @@ ul li {
 
 .bold {
   font-style: normal;
-  font-weight: bold;
   font-size: 16px;
   font-size: 1rem;
   line-height: 24px;
   line-height: 1.5;
   letter-spacing: 0.01em;
   color: #C4C4C4;
+  font-family: SequelSansVFBody-Bold;
 }
 
 @media screen and (max-width: 991px) {
@@ -3606,14 +3603,14 @@ button, .btn {
   border: 1px solid #245BA7;
   min-width: 140px;
   border-radius: 2px;
-  padding: 15.5px;
+  padding: 14.5px;
   outline: none;
   cursor: pointer;
   font-size: 16px;
   font-size: 1rem;
   line-height: 19px;
   line-height: 1.1875;
-  font-family: SequelSansVFBody-Book;
+  font-family: SequelSansVFBody-Roman;
   font-weight: 300;
   user-select: none;
   word-wrap: break-word;
@@ -3667,8 +3664,8 @@ button.btn-icon, .btn.btn-icon {
 }
 
 button.btn-icon svg, .btn.btn-icon svg {
-  width: 19px;
-  height: 19px;
+  width: 21px;
+  height: 21px;
   vertical-align: bottom;
   transition: fill .25s ease-in-out;
 }
@@ -6928,6 +6925,7 @@ body.howwedetermine-page header .header-body .header-body--desc {
   line-height: 24px;
   line-height: 1.5;
   letter-spacing: 0.01em;
+  font-family: SequelSansVFBody-Bold;
 }
 
 .card.taxCard .taxCard-score {
@@ -6981,6 +6979,7 @@ body.howwedetermine-page header .header-body .header-body--desc {
   font-weight: bold;
   font-size: 16px;
   line-height: 19px;
+  font-family: SequelSansVFBody-Bold;
 }
 
 @media screen and (max-width: 575px) {
@@ -7089,6 +7088,7 @@ body.howwedetermine-page header .header-body .header-body--desc {
 @media screen and (min-width: 992px) {
   .card.taxCard .card-body--row > div:first-child {
     display: inline-flex;
+    align-items: center;
   }
 }
 
@@ -7124,7 +7124,7 @@ body.howwedetermine-page header .header-body .header-body--desc {
 }
 
 .card.taxCard .card-body--row .taxCard-logo {
-  max-width: 252px;
+  max-width: 237px;
   width: 100%;
 }
 

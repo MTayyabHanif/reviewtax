@@ -51,7 +51,6 @@ h1, h2, h3, h4, h5, h6{
 h1 {
 	font-family: SequelSansVFDisp-Bold;
 	font-style: normal;
-	font-weight: bold;
 	@include fontsize(32px);
 	@include lineheight(32px, 38px);
 	letter-spacing: 0.01em;
@@ -69,7 +68,6 @@ h1 {
 h2 {
 	font-family: SequelSansVFDisp-Bold;
 	font-style: normal;
-	font-weight: bold;
 	@include fontsize(24px);
 	@include lineheight(24px, 28px);
 	letter-spacing: 0.01em;
@@ -88,7 +86,6 @@ h2 {
 h3 {
 	font-family: SequelSansVFDisp-Bold;
 	font-style: normal;
-	font-weight: bold;
 	@include fontsize(20px);
 	@include lineheight(20px, 24px);
 	letter-spacing: 0.03em;
@@ -146,11 +143,11 @@ ul li {
 
 .bold {
 	font-style: normal;
-	font-weight: bold;
 	@include fontsize(16px);
 	@include lineheight(16px, 24px);
 	letter-spacing: 0.01em;
 	color: #C4C4C4;
+	font-family: SequelSansVFBody-Bold;
 	@media screen and (max-width: 991px) {
 		@include fontsize(15px);
 		@include lineheight(15px, 21px);

@@ -5,12 +5,12 @@ button, .btn{
     border: 1px solid $primary;
     min-width: 140px;
     border-radius: 2px;
-    padding: 15.5px;
+    padding: 14.5px;
     outline: none;
     cursor: pointer;
 	@include fontsize(16px);
 	@include lineheight(16px, 19px);
-    font-family: $system-font;
+    font-family: SequelSansVFBody-Roman;
     font-weight: 300;
     user-select: none;
     word-wrap: break-word;
@@ -52,8 +52,8 @@ button, .btn{
         display: inline-flex;
         justify-content: space-around;
         svg {
-            width: 19px;
-            height: 19px;
+            width: 21px;
+            height: 21px;
             vertical-align: bottom;
             transition: fill .25s ease-in-out;
         }
