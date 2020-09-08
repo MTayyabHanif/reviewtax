@@ -5,7 +5,7 @@ button, .btn{
     border: 1px solid $primary;
     min-width: 140px;
     border-radius: 2px;
-    padding: 14.5px;
+    padding: 14px 18px;
     outline: none;
     cursor: pointer;
 	@include fontsize(16px);
@@ -49,12 +49,17 @@ button, .btn{
         }
     }
     &.btn-icon {
-        display: inline-flex;
-        justify-content: space-around;
+        text-align: left;
+        padding: 14px 13px;
+        padding-left: 18px;
         svg {
             width: 21px;
             height: 21px;
-            vertical-align: bottom;
+            vertical-align: top;
+            margin-right: 38px;
+            @media screen and (max-width: 991px) {
+                margin-right: 24px;
+            }
             transition: fill .25s ease-in-out;
         }
         svg path {

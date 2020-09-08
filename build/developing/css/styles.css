@@ -3603,7 +3603,7 @@ button, .btn {
   border: 1px solid #245BA7;
   min-width: 140px;
   border-radius: 2px;
-  padding: 14.5px;
+  padding: 14px 18px;
   outline: none;
   cursor: pointer;
   font-size: 16px;
@@ -3659,15 +3659,23 @@ button.btn-primary.outline.btn-icon:hover svg path, .btn.btn-primary.outline.btn
 }
 
 button.btn-icon, .btn.btn-icon {
-  display: inline-flex;
-  justify-content: space-around;
+  text-align: left;
+  padding: 14px 13px;
+  padding-left: 18px;
 }
 
 button.btn-icon svg, .btn.btn-icon svg {
   width: 21px;
   height: 21px;
-  vertical-align: bottom;
+  vertical-align: top;
+  margin-right: 38px;
   transition: fill .25s ease-in-out;
+}
+
+@media screen and (max-width: 991px) {
+  button.btn-icon svg, .btn.btn-icon svg {
+    margin-right: 24px;
+  }
 }
 
 button.btn-icon svg path, .btn.btn-icon svg path {
@@ -3989,6 +3997,14 @@ input:focus, select:focus, textarea:focus {
 
 textarea {
   resize: none;
+}
+
+select {
+  background-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 512.011 512.011' style='enable-background:new 0 0 512.011 512.011;' xml:space='preserve'%3E%3Cg%3E%3Cg%3E%3Cpath d='M505.755,123.592c-8.341-8.341-21.824-8.341-30.165,0L256.005,343.176L36.421,123.592c-8.341-8.341-21.824-8.341-30.165,0s-8.341,21.824,0,30.165l234.667,234.667c4.16,4.16,9.621,6.251,15.083,6.251c5.462,0,10.923-2.091,15.083-6.251l234.667-234.667C514.096,145.416,514.096,131.933,505.755,123.592z'/%3E%3C/g%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: 13px;
+  background-position: 95% center;
+  -webkit-appearance: none;
 }
 
 .error-text {
@@ -7265,25 +7281,27 @@ body.howwedetermine-page header .header-body .header-body--desc {
 }
 
 .taxForm .taxForm-header .taxForm-dial {
-  max-width: 278px;
   width: 100%;
-}
-
-@media screen and (max-width: 991px) {
-  .taxForm .taxForm-header .taxForm-dial {
-    max-width: 240px;
-  }
+  text-align: right;
 }
 
 @media screen and (max-width: 575px) {
   .taxForm .taxForm-header .taxForm-dial {
     margin-right: auto;
     margin-left: auto;
+    text-align: center;
   }
 }
 
 .taxForm .taxForm-header .taxForm-dial a.btn {
+  max-width: 278px;
   width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+  .taxForm .taxForm-header .taxForm-dial a.btn {
+    max-width: 240px;
+  }
 }
 
 .taxForm .taxForm-header .taxForm-logo {
@@ -7414,6 +7432,10 @@ body.howwedetermine-page header .header-body .header-body--desc {
   .taxForm .taxForm-body form button.btn {
     margin-top: -8px;
   }
+}
+
+.taxForm .taxForm-body form button.btn.btn-icon svg {
+  margin-right: 58px;
 }
 
 .taxForm .taxForm-body > .row > div:first-child {
@@ -7622,6 +7644,12 @@ body.howwedetermine-page header .header-body .header-body--desc {
 .termsContent p a,
 .thankYouContent p a {
   color: #DB5C18;
+}
+
+.thankYouContent {
+  min-height: 26vh;
+  display: flex;
+  align-items: center;
 }
 
 .privacyContent ul {

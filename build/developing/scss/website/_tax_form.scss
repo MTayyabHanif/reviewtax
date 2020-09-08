@@ -30,18 +30,20 @@
             padding-bottom: 30px;
         }
         .taxForm-dial {
+            width: 100%;
+            text-align: right;
+            @media screen and (max-width: 575px) {
+                margin-right: auto;
+                margin-left: auto;
+                text-align: center;
+            }
+        }
+        .taxForm-dial a.btn {
             max-width: 278px;
             width: 100%;
             @media screen and (max-width: 991px) {
                 max-width: 240px;
             }
-            @media screen and (max-width: 575px) {
-                margin-right: auto;
-                margin-left: auto;
-            }
-        }
-        .taxForm-dial a.btn {
-            width: 100%;
         }
         .taxForm-logo {
             max-width: 268px;
@@ -135,6 +137,9 @@
             @media screen and (max-width: 575px) {
                 margin-top: -8px;
             }
+        }
+        button.btn.btn-icon svg {
+            margin-right: 58px;
         }
     }
     .taxForm-body > .row > div:first-child {

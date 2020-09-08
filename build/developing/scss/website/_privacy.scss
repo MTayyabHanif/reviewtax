@@ -14,6 +14,11 @@
         color: $darkorange;
     }
 }
+.thankYouContent {
+    min-height: 26vh;
+    display: flex;
+    align-items: center;
+}
 
 // List
 .privacyContent ul {
