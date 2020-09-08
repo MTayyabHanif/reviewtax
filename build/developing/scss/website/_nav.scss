@@ -82,6 +82,7 @@ nav{
             font-size: 14px;
             font-weight: 300;
             position: relative;
+            transition: color .25s ease-in-out;
             @media screen and (max-width: 991px){
                 font-size: 13px;
             }

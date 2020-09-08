@@ -18,10 +18,13 @@ header .header-body {
     }
     .header-body--date {
         color: $blue2;
-        text-align: right;
+        text-align: center;
+        display: inline-block;
+        float: right;
         @media screen and (max-width: 991px) {
             text-align: left;
             margin-top: 18px;
+            float: inherit;
         }
     }
     .header-body--date span {
@@ -92,7 +95,7 @@ body.privacypage header .header-body {
     p {
         margin-bottom: 6px;
     }
-    p b {
-        font-weight: bold;
+    p span {
+        
     }
 }

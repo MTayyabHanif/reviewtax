@@ -6626,6 +6626,7 @@ nav .nav-collapse > ul li a {
   font-size: 14px;
   font-weight: 300;
   position: relative;
+  transition: color .25s ease-in-out;
 }
 
 @media screen and (max-width: 991px) {
@@ -6739,13 +6740,16 @@ header .header-body .header-body--desc {
 
 header .header-body .header-body--date {
   color: #9FC1DC;
-  text-align: right;
+  text-align: center;
+  display: inline-block;
+  float: right;
 }
 
 @media screen and (max-width: 991px) {
   header .header-body .header-body--date {
     text-align: left;
     margin-top: 18px;
+    float: inherit;
   }
 }
 
@@ -6835,10 +6839,6 @@ body.howwedetermine-page header .header-body .header-body--desc {
   margin-bottom: 6px;
 }
 
-.disclosure p b {
-  font-weight: bold;
-}
-
 .homeTax-wrapper {
   margin-top: -65px;
 }
@@ -6898,7 +6898,6 @@ body.howwedetermine-page header .header-body .header-body--desc {
   margin: 0;
   color: #02326D;
   font-family: SequelSansVFDisp-Bold;
-  font-weight: bold;
   font-size: 20px;
   font-size: 1.25rem;
   line-height: 24px;
@@ -6919,7 +6918,6 @@ body.howwedetermine-page header .header-body .header-body--desc {
 
 .card.taxCard .taxCard-label .taxCard-label--text {
   color: #fff;
-  font-weight: bold;
   font-size: 16px;
   font-size: 1rem;
   line-height: 24px;
@@ -6946,7 +6944,6 @@ body.howwedetermine-page header .header-body .header-body--desc {
   font-size: 36px;
   line-height: 42px;
   letter-spacing: 0.01em;
-  font-weight: bold;
   font-family: SequelSansVFDisp-Bold;
 }
 
@@ -6976,7 +6973,6 @@ body.howwedetermine-page header .header-body .header-body--desc {
 }
 
 .card.taxCard .taxCard-price span {
-  font-weight: bold;
   font-size: 16px;
   line-height: 19px;
   font-family: SequelSansVFBody-Bold;
@@ -7126,6 +7122,7 @@ body.howwedetermine-page header .header-body .header-body--desc {
 .card.taxCard .card-body--row .taxCard-logo {
   max-width: 237px;
   width: 100%;
+  margin-right: 18px;
 }
 
 @media screen and (max-width: 991px) {
@@ -7483,7 +7480,7 @@ body.howwedetermine-page header .header-body .header-body--desc {
 }
 
 .taxForm .howitWorks .howitWorks-item .howitWorks-item--title {
-  font-weight: bold;
+  font-family: SequelSansVFBody-Bold;
   font-size: 16px;
   font-size: 1rem;
   line-height: 24px;
@@ -7535,10 +7532,6 @@ body.howwedetermine-page header .header-body .header-body--desc {
     margin-left: -15px;
     margin-right: -15px;
   }
-}
-
-.aboutus p b {
-  font-weight: bold;
 }
 
 .aboutus .aboutus-image {

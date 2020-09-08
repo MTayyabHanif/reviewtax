@@ -181,7 +181,7 @@
         }
     }
     .howitWorks-item--title {
-        font-weight: bold;
+        font-family: SequelSansVFBody-Bold;
         @include fontsize(16px);
         @include lineheight(16px, 24px);
         letter-spacing: 0.01em;

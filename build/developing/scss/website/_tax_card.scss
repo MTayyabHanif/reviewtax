@@ -36,7 +36,6 @@
             margin: 0;
             color: $purplegreendark;
             font-family: $SequelSansVFDisp;
-            font-weight: bold;
             @include fontsize(20px);
             @include lineheight(20px, 24px);
             letter-spacing: 0.03em;
@@ -51,7 +50,6 @@
         }
         .taxCard-label--text {
             color: $white;
-            font-weight: bold;
             @include fontsize(16px);
             @include lineheight(16px, 24px);
             letter-spacing: 0.01em;
@@ -71,7 +69,6 @@
             font-size: 36px;
             line-height: 42px;
             letter-spacing: 0.01em;
-            font-weight: bold;
             font-family: $SequelSansVFDisp;
             @media screen and (max-width: 575px) {
                 @include fontsize(28px);
@@ -90,7 +87,6 @@
     .taxCard-price {
         color: $purplegreendark;
         span {
-            font-weight: bold;
             font-size: 16px;
             line-height: 19px;
             font-family: SequelSansVFBody-Bold;
@@ -201,6 +197,7 @@
         .taxCard-logo {
             max-width: 237px;
             width: 100%;
+            margin-right: 18px;
             @media screen and (max-width: 991px) {
                 margin-bottom: 30px;
             }
