@@ -239,6 +239,9 @@
     }
     .taxCard-price,
     .taxCard-score {
-        color: $white;
+        color: #D0eacc;
+        span {
+            color: $white;
+        }
     }
 }
