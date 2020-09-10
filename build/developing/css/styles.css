@@ -7196,7 +7196,9 @@ body.howwedetermine-page header .header-body .header-body--desc {
 }
 
 .card.taxCard.taxCard-success .taxCard-price span,
-.card.taxCard.taxCard-success .taxCard-score span {
+.card.taxCard.taxCard-success .taxCard-price .taxCard-score--number,
+.card.taxCard.taxCard-success .taxCard-score span,
+.card.taxCard.taxCard-success .taxCard-score .taxCard-score--number {
   color: #fff;
 }
 
@@ -7652,7 +7654,7 @@ body.howwedetermine-page header .header-body .header-body--desc {
 }
 
 .thankYouContent {
-  min-height: 26vh;
+  min-height: 30vh;
   display: flex;
   align-items: center;
 }

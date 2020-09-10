@@ -240,7 +240,8 @@
     .taxCard-price,
     .taxCard-score {
         color: #D0eacc;
-        span {
+        span,
+        .taxCard-score--number {
             color: $white;
         }
     }
