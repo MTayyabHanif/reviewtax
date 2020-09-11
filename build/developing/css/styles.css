@@ -3448,6 +3448,7 @@ h1 {
     font-size: 1.75rem;
     line-height: 33px;
     line-height: 1.17857;
+    letter-spacing: 0.015em;
   }
 }
 
@@ -6741,7 +6742,7 @@ header .header-body {
 }
 
 @media screen and (max-width: 991px) {
-  header .header-body > .container {
+  header .header-body > .container > .row {
     max-width: 644px;
   }
 }
@@ -6795,10 +6796,25 @@ body.howwedetermine-page header .header-body .header-body--desc {
   max-width: unset;
 }
 
+@media screen and (max-width: 991px) {
+  body.termspage header .header-body,
+  body.privacypage header .header-body {
+    padding-bottom: 72px;
+    min-height: auto;
+  }
+}
+
 @media screen and (max-width: 575px) {
   body.termspage header .header-body,
   body.privacypage header .header-body {
     padding-bottom: 55px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  body.aboutus-page header .header-body {
+    padding-bottom: 150px;
+    min-height: auto;
   }
 }
 
@@ -7551,6 +7567,7 @@ body.howwedetermine-page header .header-body .header-body--desc {
 @media screen and (max-width: 991px) {
   .aboutus {
     padding: 19px 38px;
+    margin-bottom: 75px;
   }
 }
 
@@ -7565,11 +7582,12 @@ body.howwedetermine-page header .header-body .header-body--desc {
 
 .aboutus .aboutus-image {
   margin-top: 10px;
+  margin-bottom: 127px;
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 991px) {
   .aboutus .aboutus-image {
-    margin-bottom: 127px;
+    margin-bottom: 30px;
   }
 }
 
@@ -7654,9 +7672,21 @@ body.howwedetermine-page header .header-body .header-body--desc {
 }
 
 .thankYouContent {
-  min-height: 30vh;
+  min-height: 35vh;
   display: flex;
   align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .thankYouContent {
+    min-height: 65vh;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .thankYouContent {
+    min-height: 40vh;
+  }
 }
 
 .privacyContent ul {

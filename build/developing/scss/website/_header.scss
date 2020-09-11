@@ -5,7 +5,7 @@ header .header-body {
     @media screen and (max-width: 991px) {
         padding: 31px 0 135px;
     }
-    > .container {
+    > .container > .row {
         @media screen and (max-width: 991px) {
             max-width: 644px;
         }
@@ -52,8 +52,19 @@ body.howwedetermine-page header .header-body {
 
 body.termspage header .header-body,
 body.privacypage header .header-body {
+    @media screen and (max-width: 991px) {
+        padding-bottom: 72px;
+        min-height: auto;
+    }
     @media screen and (max-width: 575px) {
         padding-bottom: 55px;
+    }
+}
+
+body.aboutus-page header .header-body {
+    @media screen and (max-width: 991px) {
+        padding-bottom: 150px;
+        min-height: auto;
     }
 }
 
@@ -94,8 +105,5 @@ body.privacypage header .header-body {
     }
     p {
         margin-bottom: 6px;
-    }
-    p span {
-        
     }
 }

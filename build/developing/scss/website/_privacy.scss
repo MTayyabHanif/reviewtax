@@ -15,9 +15,15 @@
     }
 }
 .thankYouContent {
-    min-height: 30vh;
+    min-height: 35vh;
     display: flex;
     align-items: center;
+    @media screen and (max-width: 1024px) {
+        min-height: 65vh;
+    }
+    @media screen and (max-width: 767px) {
+        min-height: 40vh;
+    }
 }
 
 // List

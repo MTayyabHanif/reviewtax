@@ -7,6 +7,7 @@
     margin-bottom: 104px;
     @media screen and (max-width: 991px) {
         padding: 19px 38px;
+        margin-bottom: 75px;
     }
     @media screen and (max-width: 575px) {
         padding: 7px 25px;
@@ -16,8 +17,9 @@
     }
     .aboutus-image {
         margin-top: 10px;
-        @media screen and (min-width: 576px) {
-            margin-bottom: 127px;
+        margin-bottom: 127px;
+        @media screen and (max-width: 991px) {
+            margin-bottom: 30px;
         }
     }
 }

@@ -58,6 +58,7 @@ h1 {
 	@media screen and (max-width: 991px) {
 		@include fontsize(28px);
 		@include lineheight(28px, 33px);
+		letter-spacing: 0.015em;
 	}
 	@media screen and (max-width: 575px) {
 		@include fontsize(24px);
