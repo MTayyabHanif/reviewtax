@@ -3458,6 +3458,7 @@ h1 {
     font-size: 1.5rem;
     line-height: 28px;
     line-height: 1.16667;
+    letter-spacing: 0.025em;
   }
 }
 
@@ -3488,6 +3489,7 @@ h2 {
     font-size: 1.1875rem;
     line-height: 23px;
     line-height: 1.21053;
+    letter-spacing: 0.025em;
   }
 }
 
@@ -7534,6 +7536,11 @@ body.howwedetermine-page header .header-body .header-body--desc {
 .taxForm .howitWorks .howitWorks-item p.howitWorks-item--desc {
   margin-bottom: 0;
   margin-top: 5px;
+  font-family: SequelSansVFBody-Roman;
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 19px;
+  line-height: 1.35714;
 }
 
 @media screen and (max-width: 991px) {

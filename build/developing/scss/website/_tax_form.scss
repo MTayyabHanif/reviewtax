@@ -198,6 +198,9 @@
     p.howitWorks-item--desc {
         margin-bottom: 0;
         margin-top: 5px;
+        font-family: SequelSansVFBody-Roman;
+        @include fontsize(14px);
+        @include lineheight(14px, 19px);
         @media screen and (max-width: 991px) {
             margin-top: 3px;
         }

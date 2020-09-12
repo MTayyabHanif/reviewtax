@@ -63,6 +63,7 @@ h1 {
 	@media screen and (max-width: 575px) {
 		@include fontsize(24px);
 		@include lineheight(24px, 28px);
+		letter-spacing: 0.025em;
 	}
 }
 
@@ -81,6 +82,7 @@ h2 {
 	@media screen and (max-width: 575px) {
 		@include fontsize(19px);
 		@include lineheight(19px, 23px);
+		letter-spacing: 0.025em;
 	}
 }
 
