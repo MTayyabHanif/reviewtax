@@ -36,11 +36,6 @@ header .header-body {
 
 body.aboutus-page header .header-body,
 body.howwedetermine-page header .header-body {
-    > .container {
-        @media screen and (max-width: 991px) {
-            max-width: 483px;
-        }
-    }
     @media screen and (max-width: 575px) {
         min-height: auto;
         padding-bottom: 126px;
