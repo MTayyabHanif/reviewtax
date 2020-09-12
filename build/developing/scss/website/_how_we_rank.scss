@@ -35,4 +35,9 @@
             max-width: 164px;
         }
     }
+    .howWeRank-content p {
+        @media screen and (max-width: 575px) {
+            margin-bottom: 1.25rem !important;
+        }
+    }
 }

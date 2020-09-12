@@ -6609,6 +6609,11 @@ nav .nav-collapse-wrapper {
 
 @media screen and (max-width: 575px) {
   nav .nav-collapse-wrapper {
+    background-color: rgba(36, 91, 167, 0.1);
+    display: none;
+    margin: 0 -15px;
+  }
+  nav .nav-collapse-wrapper::before {
     display: none;
   }
 }
@@ -6680,6 +6685,7 @@ nav .nav-collapse > ul li.disclosure-trigger a.modalActive::after {
 @media screen and (max-width: 575px) {
   nav .nav--colapseBtn {
     z-index: 20;
+    margin-top: -18px;
   }
 }
 
@@ -7537,10 +7543,6 @@ body.howwedetermine-page header .header-body .header-body--desc {
   margin-bottom: 0;
   margin-top: 5px;
   font-family: SequelSansVFBody-Roman;
-  font-size: 14px;
-  font-size: 0.875rem;
-  line-height: 19px;
-  line-height: 1.35714;
 }
 
 @media screen and (max-width: 991px) {
@@ -7552,6 +7554,10 @@ body.howwedetermine-page header .header-body .header-body--desc {
 @media screen and (max-width: 575px) {
   .taxForm .howitWorks .howitWorks-item p.howitWorks-item--desc {
     margin-top: 9px;
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 19px;
+    line-height: 1.35714;
   }
 }
 
@@ -7642,6 +7648,12 @@ body.howwedetermine-page header .header-body .header-body--desc {
 @media screen and (max-width: 575px) {
   .howWeRank .howWeRank-image img {
     max-width: 164px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .howWeRank .howWeRank-content p {
+    margin-bottom: 1.25rem !important;
   }
 }
 

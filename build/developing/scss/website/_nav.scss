@@ -54,7 +54,12 @@ nav{
             }
         }
         @media screen and (max-width: 575px) {
+            background-color: rgba($primary, 0.1);
             display: none;
+            margin: 0 -15px;
+            &::before {
+                display: none;
+            }
         }
     }
     .nav-collapse{
@@ -109,6 +114,7 @@ nav{
     .nav--colapseBtn {
         @media screen and (max-width: 575px){
             z-index: 20;
+            margin-top: -18px;
         }
     }
     button.button-collapse {
